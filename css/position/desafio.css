@@ -1,0 +1,40 @@
+article {
+    text-align: center;
+}
+
+.box1 {
+    height: 30px;
+    background-color: darkorange;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 20px;
+    position: absolute;
+    width: 12rem;
+    left: 33rem;
+    color: white;
+    font-weight: bold;
+}
+
+.box2 {
+    width: 47rem;
+    height: 28rem;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+    position: fixed;
+    top: 2rem;
+    left: 16rem;
+    color: white;
+}
+.box2  img {
+    border-radius: 5px;
+    max-width: 358px;
+    margin-top: 1rem;
+}
+
+figcaption {
+    position: absolute;
+    top: 15rem;
+    left: 13rem;
+    color: white;
+    opacity: 0.3;
+}
