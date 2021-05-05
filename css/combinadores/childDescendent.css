@@ -1,0 +1,16 @@
+/* 
+child 
+tag parrafo que sea hija directa de div */
+
+/*
+div > p {
+    color: red;
+}
+*/
+
+/* 
+descendent
+todas las etiquetas parrafo que esten dentro de tag div */
+div p {
+    color: red;
+}
