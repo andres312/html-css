@@ -1,0 +1,40 @@
+:root { /* etiqueta html */
+    --primary-color:  #003476;
+    --secundary-color: #b4d2f7;
+    --header-size: 4rem;
+    --font: 1.8rem;
+    --full-with: 100vw;
+    --head-foot: 15vh;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 62.5%; /* 1rem = 10px; */
+}
+
+header {
+    width: var(--full-with);
+    height: var(--head-foot);
+    background-color: var(--primary-color);
+}
+
+main {
+    width: var(--full-with);
+    height: 70vh;
+    font-size: var(--font);
+}
+
+h1 {
+    font-size: var(--header-size);
+    color: var(--primary-color);
+}
+
+footer {
+    width: var(--full-with);
+    height: var(--head-foot);
+    background-color: var(--secundary-color);
+}
